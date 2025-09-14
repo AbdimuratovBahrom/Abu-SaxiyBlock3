@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Интерактивная схема</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Схема торгового центра (ряды 6 и 7)</h2>
+
+  <!-- Фото схемы -->
+  <img src="/css/images/схема3.jpg" usemap="#shops" width="900">
+
+  <map name="shops">
+    <!-- ✅ 6 ряд -->
+    <area shape="rect" coords="60,150,100,180" href="#shop6_1" alt="6 ряд, Магазин 1" title="6 ряд, Магазин 1  fghjkl">
+    <area shape="rect" coords="60,190,100,220" href="#shop6_2" alt="6 ряд, Магазин 2" title="6 ряд, Магазин 2 xcvbn">
+    <area shape="rect" coords="60,230,100,260" href="#shop6_3" alt="6 ряд, Магазин 3">
+    <area shape="rect" coords="60,270,100,300" href="#shop6_4" alt="6 ряд, Магазин 4">
+    <area shape="rect" coords="60,310,100,340" href="#shop6_5" alt="6 ряд, Магазин 5">
+    <area shape="rect" coords="60,350,100,380" href="#shop6_6" alt="6 ряд, Магазин 6">
+    <area shape="rect" coords="60,390,100,420" href="#shop6_7" alt="6 ряд, Магазин 7">
+    <area shape="rect" coords="60,430,100,460" href="#shop6_8" alt="6 ряд, Магазин 8">
+    <area shape="rect" coords="60,470,100,500" href="#shop6_9" alt="6 ряд, Магазин 9">
+    <area shape="rect" coords="60,510,100,540" href="#shop6_10" alt="6 ряд, Магазин 10">
+    <area shape="rect" coords="60,550,100,580" href="#shop6_11" alt="6 ряд, Магазин 11">
+    <area shape="rect" coords="60,590,100,620" href="#shop6_12" alt="6 ряд, Магазин 12">
+    <area shape="rect" coords="60,630,100,660" href="#shop6_13" alt="6 ряд, Магазин 13">
+
+    <!-- ✅ 7 ряд -->
+    <area shape="rect" coords="140,150,180,180" href="#shop7_1" alt="7 ряд, Магазин 1">
+    <area shape="rect" coords="140,190,180,220" href="#shop7_2" alt="7 ряд, Магазин 2">
+    <area shape="rect" coords="140,230,180,260" href="#shop7_3" alt="7 ряд, Магазин 3">
+    <area shape="rect" coords="140,270,180,300" href="#shop7_4" alt="7 ряд, Магазин 4">
+    <area shape="rect" coords="140,310,180,340" href="#shop7_5" alt="7 ряд, Магазин 5">
+    <area shape="rect" coords="140,350,180,380" href="#shop7_6" alt="7 ряд, Магазин 6">
+    <area shape="rect" coords="140,390,180,420" href="#shop7_7" alt="7 ряд, Магазин 7">
+    <area shape="rect" coords="140,430,180,460" href="#shop7_8" alt="7 ряд, Магазин 8">
+    <area shape="rect" coords="140,470,180,500" href="#shop7_9" alt="7 ряд, Магазин 9">
+    <area shape="rect" coords="140,510,180,540" href="#shop7_10" alt="7 ряд, Магазин 10">
+    <area shape="rect" coords="140,550,180,580" href="#shop7_11" alt="7 ряд, Магазин 11">
+    <area shape="rect" coords="140,590,180,620" href="#shop7_12" alt="7 ряд, Магазин 12">
+  </map>
+</body>
+
+</html> 
